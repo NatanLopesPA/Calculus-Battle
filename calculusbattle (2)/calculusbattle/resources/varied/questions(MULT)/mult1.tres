@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://om7fu6q4x5vn"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_i7byr"]
+
+[resource]
+script = ExtResource("1_i7byr")
+question_info = "7 x 6 = ?"
+type = 2
+options = Array[String](["42", "49", "76", "13"])
+correct = "42"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dadmpiyemmae4"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_yhikj"]
+
+[resource]
+script = ExtResource("1_yhikj")
+question_info = "49 / 7 = ?"
+type = 3
+options = Array[String](["7", "19", "30", "10"])
+correct = "7"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"

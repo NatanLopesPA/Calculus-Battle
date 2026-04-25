@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dyj4v75axq11x"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_nf8in"]
+
+[resource]
+script = ExtResource("1_nf8in")
+question_info = "10 + 19 = ?"
+options = Array[String](["20", "19", "29", "48"])
+correct = "29"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"

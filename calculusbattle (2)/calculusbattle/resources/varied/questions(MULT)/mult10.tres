@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://du04q3jx8pq3l"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_jq5rr"]
+
+[resource]
+script = ExtResource("1_jq5rr")
+question_info = "9 x 9 = ?"
+type = 2
+options = Array[String](["81", "10", "79", "82"])
+correct = "81"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://dggdbdak7xes"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_wc53d"]
+
+[resource]
+script = ExtResource("1_wc53d")
+question_info = "13 / 13 = ?"
+type = 3
+options = Array[String](["1", "1313", "13", "0"])
+correct = "1"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"

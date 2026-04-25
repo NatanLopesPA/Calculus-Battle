@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://b26pndb4xm3t1"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_ac7ym"]
+
+[resource]
+script = ExtResource("1_ac7ym")
+question_info = "50 - 18 = ?"
+type = 1
+options = Array[String](["42", "38", "32", "68"])
+correct = "32"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"

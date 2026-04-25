@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://bocr6k7ws76iu"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_ir3ub"]
+
+[resource]
+script = ExtResource("1_ir3ub")
+question_info = "36 / 12 = ?"
+type = 3
+options = Array[String](["6", "3", "12", "24"])
+correct = "3"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="QuizQuestion" load_steps=2 format=3 uid="uid://drdr0a8wcb3fx"]
+
+[ext_resource type="Script" uid="uid://b5wd54l3ykuhw" path="res://Scripts/resources/question.gd" id="1_y4i7m"]
+
+[resource]
+script = ExtResource("1_y4i7m")
+question_info = "20 / 4 = ?"
+type = 3
+options = Array[String](["4", "6", "5", "8"])
+correct = "5"
+metadata/_custom_type_script = "uid://b5wd54l3ykuhw"
